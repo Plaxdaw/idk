@@ -1,0 +1,38 @@
+.Logo {
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    border-width: 2px;
+    background-color: navy;
+    background-image: url(https://lipsum.app/random/1600x900);
+    background-size: cover;
+    
+}
+
+.Tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+
+}
+
+.Greyhound {
+    height: 500px;
+    display: inline;
+    border-radius: 50px;
+}
+
+.Kapalapi {
+    border-radius: 50px;
+    display: inline;
+    width: 700px;
+}
+
+.mainimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}

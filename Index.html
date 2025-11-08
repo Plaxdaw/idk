@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Script CDN tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Ctrl + / buat taking notes -->
+    <!-- CSS External File -->
+    <link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="Tabs mb-3 mt-2">
+      
+        <!-- Logo -->
+         
+         <img src="c9a9be41-e9d1-409e-a8cf-fa5ea0cf8b00.png" class="Logo">
+         
+         
+
+         <!-- Navigation Panel-->
+          <nav class="flex">
+            <a class="border rounded p-1" href="#home-page">Home</a>
+            <a class="border rounded p-1" href="#our profile-page">Our Profile</a>
+            <a class="border rounded p-1" href="#portofolio-page">Portofolio</a>
+            <a class="border rounded p-1" href="#contact us-page">Contact Us</a>
+
+          </nav>
+
+    </header>
+
+    <hr/>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Home -->
+         <section id="home-page" class="min-h-[80px] text-center mt-4">
+            <h2 class="text-xl font-bold" id="welcome-speech">Welcome to Mahakam Beans</h2>
+            <p class="mt-2">Your one stop coffe beans needs!</p>
+         </section>
+         <img src="9390303_20161227122532.jpg" alt="imagemain" class="mainimage">
+         
+         <hr/>
+         <!-- Our Profile -->
+          <section id="our profile-page" class="min-h-[500px] text-center">
+            <h2 class="text-xl font-bold mt-4">Our Profile</h2>
+            <p class="mt-2">Mahakam Coffee is a trusted supplier of premium Indonesian coffee beans, 
+              dedicated to connecting local farmers with coffee lovers across Indonesia.</p>
+
+             <h2 class="text-xl font-bold">Vision</h2>
+              <p>To promote Indonesias rich coffee heritage by delivering authentic, sustainably sourced coffee to every cup.</p>
+            <h2 class="text-xl font-bold">Mission</h2>
+
+            <ul>
+              <li>Support local coffee farmers through fair-trade practices and training.</li>
+              <li>Ensure consistent quality through meticulous bean selection and roasting.</li>
+              <li>Build a strong domestic coffee culture that values Indonesian origin coffee.</li>
+            </ul>
+
+            <h2 class="text-xl font-bold">Products & Services</h2>
+              <ul>
+                <li>Green beans & roasted coffee (Arabica & Robusta varieties)</li>
+                <li>Custom roasting & packaging for cafes and retailers</li>
+                <li>Wholesale distribution to local businesses and coffee enthusiasts</li>
+              </ul>
+
+            <h2 class="text-xl font-bold">Core Values</h2>
+              <p>Quality • Sustainability • Fair Partnership • Indonesian Pride</p>
+          </section>
+
+          <hr/>
+
+        <!-- Portofolio -->
+         <section id="portofolio-page" class="min-h-[500px] text-center">
+          <h2 class="text-xl font-bold">Our Journey</h2>
+          <p class="mt-2">We have been supplying coffee beans all throughout Indonesia, wether ground or whole beans</p>
+          <h3 class="mt-3 text-xl font-bold">Greyhound Cafe</h3>
+          <img src="greyhound cafe.jpeg" class="Greyhound">
+          <h3 class="text-xl font-bold mt-5">PT. Fastrata Buana</h3>
+          <img src="kapal api.jpg" style="width: 700px;display: inline; border-radius: 50px;">
+          
+         </section>
+
+        <!-- Contact Us -->
+         <section id="contact us-page" class="min-h-[500px] text-center p-10">
+          <h2 class="text-xl font-bold">Contact Us !</h2>
+          <p class="mb-2">Have anything to ask about? Let us know and we will get back to you soon!</p>
+
+        <!-- Form -->
+         <form>
+            <div class="mb-4">
+                <label class="block mb-2" for="Name">Name</label>
+                <input class="w-full p-2 border rounded" type="text" id="Name" required/>
+            </div>
+            <div class="mb-4">
+              <label class="Block mb-2" for="Dateofbirth">Date of Birth</label>
+              <input class="w-full p-2 border rounded" type="date" id="Dateofbirth" required/>
+            </div>
+            <div class="border rounded mb-4">
+              <label class="Block mb-2 ml-2" for="Gender" id="Gender">Gender</label>
+              <br/>
+              <select>
+            <option
+            value="Male">Male</option>
+            <option
+            value="Female">Female</option>
+        </select>
+            </div>
+            <div class="mb-4">
+              <label class="block mb-2" for="Messagebox">Message Box</label>
+              <input class="w-full p-8 border rounded" type="text" id="messagebox" required/>
+            </div>
+            <button class="px-4 py-2 bg-blue-300 text-white round" onclick="welcomemessage()" type="submit">Send message</button>
+         </form>
+         </section>
+    </main>
+
+    <hr/>
+
+    <!-- Footer -->
+    <footer></footer>
+
+    <p class="text-center">© Mahakam Beans. All rights reserved.</p>
+
+    <!-- JS External File -->
+    <script src="JS/script.js"></script>
+</body>
+</html>
